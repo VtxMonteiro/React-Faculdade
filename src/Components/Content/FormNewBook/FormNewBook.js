@@ -5,6 +5,7 @@ const FormNewBook = () => {
 
     return (
         <div className="container">
+            <div className="formContainer">
             <form>
                 <div className="title">
                     <h3>Faça seu Cadastro:</h3>
@@ -18,6 +19,7 @@ const FormNewBook = () => {
 
                 <button type="submit">Enviar</button>
             </form>
+            </div>
         </div>
 
     )

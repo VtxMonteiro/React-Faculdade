@@ -4,6 +4,9 @@ const FormNewEdit = () => {
 
     return (
         <div className="container">
+
+            <div className="formContainer">
+                
             <form>
                 <div className="title">
                     <h3>Cadastre seu livro:</h3>
@@ -17,6 +20,7 @@ const FormNewEdit = () => {
 
                 <button type="submit">Enviar</button>
             </form>
+            </div>
         </div>
 
     )
