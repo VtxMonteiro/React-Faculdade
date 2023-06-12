@@ -1,0 +1,16 @@
+.container h1 {
+   color: #fff;
+}
+
+.tableAutores {
+    width: 80%;
+}
+
+.tableAutores tbody th span {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.tableAutores tbody th a {
+    text-decoration: none;
+}

@@ -10,6 +10,8 @@ import Categoria from "./Pages/Categoria";
 import Cadastro from "./Pages/cadastro";
 
 import './index.css';
+import Autores from './Pages/Autores';
+import EditarAutor from './Pages/EditarAutor';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -28,8 +30,9 @@ root.render(
         <Route path= "/Categoria" element= {<Categoria/>} />
         <Route path= "/Livro" element= {< Livro/>} />
         <Route path= "/Editora" element= {< Editora/>} />
-
         <Route path= "/Cadastro" element= {< Cadastro/>} />
+        <Route path= "/autores" element= {< Autores/>} />
+        <Route path= "/autores/editar" element= {< EditarAutor />} />
 
       </Route>
 

@@ -1,10 +1,8 @@
+import FormAutor from "../Components/Content/FormNewBook/FormAutor"
+
 const Autor = () => {
-
-    return (
-
-    <h1 className="autor">Autores em construção</h1>
-
-    )
+    
+    return <FormAutor />
 }
 
 export default Autor;

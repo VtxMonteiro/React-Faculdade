@@ -1,35 +1,40 @@
-.container{
+.container {
     width: 100%;
-}
-
-.title{
-    text-align: center;
-}
-
-form {
-    width: 50vh;
-    padding: 38px;
-    background-color: #FFFF;
-    border-radius: 20px;
-    margin: auto;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-    font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-  }
+    align-content: center;
+    display: flex;
+}
 
-  input {
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 10px;
-    border: none;
-    border-radius: 20px;
-    background-color:  #252A34;
-    color: #C0D0F7;
-    box-sizing: border-box;
-    outline: none;
-    
-  }
+.title {
+    text-align: center;
+    padding: 10px;
+}
+
+.formContainer {
+  background: #fff;
+  padding: 30px;
+  margin-top: 10vh;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color:  #252A34;
+  color: #C0D0F7;
+  box-sizing: border-box;
+  outline: none;
+}
 
   button {
     width: 100%;
@@ -47,4 +52,12 @@ form {
     color: #fff;
     background-color: #074b86;
     transform: scale(1.05);
+  }
+
+  .linkAutores {
+    margin-top: 20px;
+  }
+
+  .linkAutores a {
+    text-decoration: none;
   }
